@@ -4,12 +4,12 @@ const UserForm = ({ onSubmit }) => {
   const [user, setUser] = useState('') // Input
   const [email, setEmail] = useState('') // Input
 
-  handleUser = (e) => {
+  const handleUser = (e) => {
     const value = e.target.value
     setUser(value)
   }
 
-  handleEmail = (e) => {
+  const handleEmail = (e) => {
     const value = e.target.value
     setEmail(value)
   }
