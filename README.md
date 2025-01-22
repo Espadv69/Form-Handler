@@ -1,8 +1,14 @@
-# React + Vite
+# React Form Handler
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Objective
+Build a React project to practice form handling and data submission. The form collects user input (name and email) and displays it in the parent component upon submission.
 
-Currently, two official plugins are available:
+## Steps
+1. Create a parent component (`App`) to manage the state of the submitted data.
+2. Build a child component (`UserForm`) that contains the form.
+3. Use `useState` to manage the input values locally.
+4. Pass the submitted data to the parent component using props.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Outcome
+- The form collects user input and sends it to the parent component.
+- The parent component displays the submitted data below the form.
