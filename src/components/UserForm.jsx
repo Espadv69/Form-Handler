@@ -4,6 +4,16 @@ const UserForm = ({ onSubmit }) => {
   const [user, setUser] = useState('') // Input
   const [email, setEmail] = useState('') // Input
 
+  handleUser = (e) => {
+    const value = e.target.value
+    setUser(value)
+  }
+
+  handleEmail = (e) => {
+    const value = e.target.value
+    setEmail(value)
+  }
+
   const handleSubmit = (e) => {
     e.preventDefault()
 
@@ -14,12 +24,15 @@ const UserForm = ({ onSubmit }) => {
 
   return (
     <form action="">
-      <div>
-        <label htmlFor="">
-          User:
-          <input type="text" />
-        </label>
-      </div>
+      <label htmlFor="">
+        User:
+        <input type="text" value={user} onChange={handleUser} />
+      </label>
+      <label>
+        Email:
+        <input type="text" value={email} onChange={handleEmail} />
+      </label>
+      <button>Submit</button>
     </form>
   )
 }
