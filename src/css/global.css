@@ -37,3 +37,29 @@ body {
   text-align: center;
   font-size: 2.4rem;
 }
+
+.userData {
+  margin: 1.4rem auto;
+  padding: 1rem;
+
+  width: 100%;
+  max-width: 300px;
+}
+
+.h4-userData {
+  text-align: center;
+
+  border-bottom: 3px solid orangered;
+
+  color: orange;
+}
+
+.p-userData {
+  padding: 0rem .5rem;
+
+  color: #C0C0C0;
+}
+
+.p-userData span {
+  color: #ffffff;
+}
