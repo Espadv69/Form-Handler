@@ -57,9 +57,9 @@ body {
 }
 
 .p-userData {
-  padding: 0rem .5rem;
+  padding: 0rem 0.5rem;
 
-  color: #C0C0C0;
+  color: #c0c0c0;
 }
 
 .p-userData span {
