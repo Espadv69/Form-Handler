@@ -17,7 +17,7 @@ const App = () => {
 
       {userData && (
         <div className="userData">
-          <h4 className='h4-userData'>Registro</h4>
+          <h4 className="h4-userData">User Registered</h4>
           <p className="p-userData">
             User: <span>{userData.user}</span>
           </p>
