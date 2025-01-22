@@ -1,5 +1,7 @@
 import { useState } from 'react'
 
+import '../css/UserForm.css'
+
 const UserForm = ({ onSubmit }) => {
   const [user, setUser] = useState('') // Input
   const [email, setEmail] = useState('') // Input
