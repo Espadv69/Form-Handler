@@ -23,16 +23,28 @@ const UserForm = ({ onSubmit }) => {
   }
 
   return (
-    <form action="">
-      <label htmlFor="">
+    <form className="form-data" onSubmit={handleSubmit}>
+      <label className="label-form-data">
         User:
-        <input type="text" value={user} onChange={handleUser} />
+        <input
+          className="input-form-data"
+          type="text"
+          value={user}
+          onChange={handleUser}
+          required
+        />
       </label>
-      <label>
+      <label className="label-form-data">
         Email:
-        <input type="text" value={email} onChange={handleEmail} />
+        <input
+          className="input-form-data"
+          type="email"
+          value={email}
+          onChange={handleEmail}
+          required
+        />
       </label>
-      <button>Submit</button>
+      <button className="button-form-data">Submit</button>
     </form>
   )
 }
