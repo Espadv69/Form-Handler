@@ -26,6 +26,8 @@ body {
     'Open Sans',
     'Helvetica Neue',
     sans-serif;
+
+  overflow: hidden;
 }
 
 .h1-title {
